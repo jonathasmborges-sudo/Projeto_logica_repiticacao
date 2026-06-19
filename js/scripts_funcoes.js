@@ -1,3 +1,5 @@
+import { calculoPercentual } from './scripts_calculos.js'
+
 function mensagem (){
     console.log('Uma mensagem')
 }
@@ -101,3 +103,11 @@ if (numSorteado == 6) {
 
 }
 }, 2000)
+
+//CHAMANDO A FUNÇÃO DE OUTRO ARQUIVO
+console.log('CÁLCULO DA FUNÇÃO calculoPercentual DO ARQUIVO  scripts_calculos.js --->',calculoPercentual(750))
+
+
+
+
+
